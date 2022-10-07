@@ -11,8 +11,11 @@
 
 <body>
     <figure>
-        <img src="/img/logo-DH.png" alt="Logo Digital House">
+        <a href="/"><img src="/img/logo-DH.png" alt="Logo Digital House"></a>
     </figure>
+    <ul style="display: flex; gap: 10px; list-style: none;">
+        <li><a href="/movies/add">Añadir películas</a></li>
+    </ul>
     <h1>LISTADO DE PELÍCULAS</h1>
     <ul>
         <% for( let i = 0; i < movies.length; i++ ) { %>
